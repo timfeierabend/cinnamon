@@ -163,7 +163,7 @@ class Module:
         section.show_all()
 
         # Add to bolt sections we're maintaining
-        self._bolt_sections[obj_path] = section
+        self._bolt_sections[obj_path] = (section, bolt_dev)
 
     def _trust_device(self, uid):
         print('Trusting', uid)
