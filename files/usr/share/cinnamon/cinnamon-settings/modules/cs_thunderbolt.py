@@ -79,7 +79,7 @@ class Module:
 
     def __init__(self, content_box):
         keywords = _("thunderbolt")
-        sidePage = SidePage("Thunderbolt™", "cs-details", keywords, content_box,
+        sidePage = SidePage("Thunderbolt™", "thunderbolt-symbolic", keywords, content_box,
                             module=self)
         self.sidePage = sidePage
 
